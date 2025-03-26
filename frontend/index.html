@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hotel Management System</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body class="container mt-5">
+        <h1 class="text-center">Welcome to Our Hotel</h1>
+        
+        <h2>Available Rooms</h2>
+        <ul id="rooms" class="list-group"></ul>
+    
+        <h2>Book a Room</h2>
+        <form id="bookingForm" class="p-4 border rounded bg-light">
+            <label for="customer_id">Customer ID:</label>
+            <input type="text" class="form-control" id="customer_id" required>
+    
+            <label for="room_id">Room ID:</label>
+            <input type="text" class="form-control" id="room_id" required>
+    
+            <label for="checkin_date">Check-in:</label>
+            <input type="date" class="form-control" id="checkin_date" required>
+    
+            <label for="checkout_date">Check-out:</label>
+            <input type="date" class="form-control" id="checkout_date" required>
+    
+            <label for="total_cost">Total Cost:</label>
+            <input type="text" class="form-control" id="total_cost" required>
+    
+            <button type="submit" class="btn btn-primary mt-3">Book Now</button>
+        </form>
+    </body>
+           Total Cost: <input type="text" id="total_cost" required><br>
+        <button type="submit">Book Now</button>
+    </form>
+</body>
+</html>
